@@ -25,7 +25,12 @@ namespace TestApplication2.Controllers
             return View();
         }
 
-        public IActionResult Services()
+        public IActionResult ProductsAndServices()
+        {
+            return View();
+        }
+
+        public IActionResult AboutUs()
         {
             return View();
         }
