@@ -15,6 +15,7 @@ namespace TestApplication2
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            //test comment
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
